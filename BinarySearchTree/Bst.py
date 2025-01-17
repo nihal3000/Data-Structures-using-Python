@@ -12,7 +12,7 @@ class Bst:
             c = self.root
 
             while c!=None:
-                p = c
+                p = c 
                 if elem<c.val:
                     c = c.ls
                 else:
