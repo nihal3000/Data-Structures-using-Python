@@ -60,20 +60,19 @@ if __name__ == "__main__":
     deque.add_front(5)
     deque.add_front(2)
     
-    # Display the deque
-    # deque.display()  # Output: [2, 5, 10, 20]
+ 
     print(deque.items)
     
     # Remove elements from front and rear
-    print("Removed from front:", deque.remove_front())  # Output: 2
-    print("Removed from rear:", deque.remove_rear())    # Output: 20
+    print("Removed from front:", deque.remove_front())
+    print("Removed from rear:", deque.remove_rear())  
     
     # Display the deque again
     deque.display()  # Output: [5, 10]
     
     # Peek at front and rear
-    print("Front item:", deque.peek_front())  # Output: 5
-    print("Rear item:", deque.peek_rear())    # Output: 10
+    print("Front item:", deque.peek_front())
+    print("Rear item:", deque.peek_rear())
     
     # Check size of deque
-    print("Deque size:", deque.size())  # Output: 2
+    print("Deque size:", deque.size())
